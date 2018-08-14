@@ -8,7 +8,7 @@
 
 <!-- Fixed Navigation Hexagon -->
 
-    <a href="#" class="top-left-fixed" onclick="openNav()">
+    <a class="top-left-fixed" onclick="openNav()">
 
         <!-- Outer Hexagon Z=1 -->
         <div class="hexagon-wrapper-border">
@@ -35,10 +35,9 @@
 
 <div id="navDrawer" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#professional">Professional</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#service">Service</a>
-    <a href="#contact">Contact</a>
+    <a href="#prevention" onclick="closeNav()">Prevention</a>
+    <a href="#aftermath" onclick="closeNav()">Aftermath</a>
+    <a href="#men" onclick="closeNav()">Men's Section</a>
 </div>
 
 <!-- END Navigation Drawer -->
@@ -59,14 +58,14 @@
             <div class="headline">     
                 
                 <!-- Info -->
-                <h1>WARNING</h1>
-                <h3>
+                <h1 class="color-background">WARNING</h1>
+                <h3 class="color-background">
                     The following information may be difficult for certain people to read.
                     This website aims to confront forced sexual encounters and educate women on how to protect both themselves and others.
                 </h3>
 
                 <!-- Down Arrow -->
-                <a href="#">
+                <a href="#prevention">
                     <i class="material-icons downicon-wrapper color-white bounce-always" style="font-size: 2rem;">arrow_downward</i>        
                 </a><br>
 
@@ -81,79 +80,112 @@
 
 <!-- END Langing Page -->
 
-<!-- Grid Examples -->
+<!-- Prevention -->
 
-        <!-- Row -->
-        <div class="wrapper background">
-            <div class="eight-col-center">
-                <p class="one color-primary text-center border-primary">1</p>
-            </div>
+    <div id="prevention" class="wrapper background">
+        <div class="eight-col-center">
+            <h3 class="one color-primary text-center">
+                Prevention
+            </h3>
         </div>
-
-        <!-- Halves -->
-        <div class="wrapper background">
-            <div class="eight-col-center">                
-                <p class="one-two color-primary text-center border-primary">1/2</p>
-                <p class="two-two color-primary text-center border-primary">2/2</p>
-            </div>            
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <ul class="one-two">
+                <li class="color-primary">Make sure nobody in your group gets too intoxicated, and if they do get them out of the situation immediately</li><br>
+                <li class="color-primary">NEVER accept drinks that are already poured</li><br>
+                <li class="color-primary">If you set your drink down don't pick it back up</li><br>
+            </ul>
+            <ul class="two-two">
+                <li class="color-primary">It is not worth the risk to go off in the dark for privacy.  Stay where you can be seen</li><br>
+                <li class="color-primary">If in trouble scream and resist immediately, they look for easy targets that don't make a fuss</li><br>
+            </ul>
         </div>
+    </div>
 
-        <!-- Thirds -->
-        <div class="wrapper background">
-            <div class="eight-col-center">
-                <p class="one-three color-primary text-center border-primary">1/3</p>
-                <p class="two-three color-primary text-center border-primary">2/3</p>
-                <p class="three-three color-primary text-center border-primary">3/3</p>
-            </div>
+<!-- END Prevention -->
+
+<!-- Aftermath -->
+
+<div id="aftermath" class="wrapper background">
+        <div class="eight-col-center">
+            <h3 class="one color-primary text-center">
+                Aftermath
+            </h3>
         </div>
-
-        <!-- Thirds w/ Emphasis on Center -->
-        <div class="wrapper background">
-            <div class="eight-col-center">
-                <p class="one-three--emphasis-center color-primary text-center border-primary">1/3</p>
-                <p class="two-three--emphasis-center color-primary text-center border-primary">2/3 *Emphasis</p>
-                <p class="three-three--emphasis-center color-primary text-center border-primary">3/3</p>
-            </div>
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <p class="one color-primary">
+                The steps outlined here are what to do in an ideal world where all those that commit rape are held accountable.
+                It is completely understandable if you did/do not do what is outlined here.
+                What is most important is you and your health.
+            </p>
         </div>
-
-        <!-- One Third & Two Thirds -->
-        <div class="wrapper background">
-            <div class="eight-col-center">
-                <p class="one-three color-primary text-center border-primary">1/3</p>
-                <p class="two-three-three color-primary text-center border-primary">2/3, 3/3</p>
-            </div>
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <ol class="one">
+                <li class="color-primary">Immediately go to the hospital</li><br>
+                <li class="color-primary">
+                    Do not take a shower until after you are seen by a doctor, 
+                    DNA evidence is crucial if you ever want to see justice
+                </li><br>
+                <li class="color-primary">Be courageous, do the right thing and go after him. Make sure he never hurts anyone else</li><br>
+            </ol>
         </div>
-
-        <!-- Two Thirds & One Third -->
-        <div class="wrapper background">
-            <div class="eight-col-center">
-                <p class="one-two-three color-primary text-center border-primary">1/3, 2/3</p>
-                <p class="three-three color-primary text-center border-primary">3/3</p>
-            </div>
-        </div>
-
-        <!-- Equal Thirds in six col center -->
-        <div class="wrapper background">            
-            <div class="six-col-center">
-                <div class="one-three color-primary text-center pad-med border-primary">HEX</div>
-                <div class="two-three color-primary text-center pad-med border-primary">HEX</div>
-                <div class="three-three color-primary text-center pad-med border-primary">HEX</div>
-            </div>
-        </div>
-
-<!-- END Grid Examples -->
-
-<!-- Button Examples -->
-        
-        <!-- <button class="button button-primary mdc-button mdc-button--outlined">
-            Primary Button
-        </button>
-        <button class="button button-secondary mdc-button mdc-button--outlined">
-            Secondary Button
-        </button> -->
-
-<!-- End Button Examples -->
+    </div>
 </div>
+
+<!-- END Aftermath -->
+
+<!-- Men Section -->
+
+<div id="men" class="wrapper background">
+        <div class="eight-col-center">
+            <h3 class="one color-primary text-center">
+                Men's Section
+            </h3>
+        </div>
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <p class="one color-primary">
+                There are two types of men, the good and the evil.
+                There are those that respect and love women, and those that think that women are an item theirs to obtain.
+                Those that know how glorious love is and those that are so caught up in power their soul is eternally damned.
+            </p>
+        </div>
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <h3 class="one-two color-primary text-center">The Good</h3>
+            <h3 class="two-two color-primary text-center">The Evil</h3>
+        </div>
+    </div>
+    <div class="wrapper background">
+        <div class="eight-col-center">
+            <!-- The Good -->
+            <ul class="one-two" style="margin-right: 0.5rem;">
+                <li class="color-primary">Listen to her, and never push her to say anything she is not ready to</li><br>
+                <li class="color-primary">
+                    Just because she hasn't said anything doesn't mean everything is alright.  
+                    Be open and give her the opportunity to talk about the subject
+                </li><br>
+            </ul>
+            <!-- The Evil -->
+            <ul class="two-two" style="margin-left: 0.5rem;">
+                <li class="color-primary">You have a mother.  What if it happened to her?</li><br>
+                <li class="color-primary">You are taking away a woman's life; just for a taste of false power</li><br>
+                <li class="color-primary">Anyone that forces themselves onto a woman is a pathetic coward</li><br>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- END Men Section -->
+
+        </div>
     </body>
 </html>
 
