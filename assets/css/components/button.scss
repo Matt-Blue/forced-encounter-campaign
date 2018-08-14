@@ -1,0 +1,17 @@
+@import "@material/button/mdc-button";
+
+// General Section
+
+.button-primary {
+    @include mdc-button-ink-color($primary);
+    @include mdc-button-outline-color($primary);
+    @include mdc-states($primary);
+}
+
+.button-secondary {
+    @include mdc-button-ink-color($secondary);
+    @include mdc-button-outline-color($secondary);
+    @include mdc-states($secondary);
+    @include mdc-button-filled-accessible($secondary);
+    @include mdc-button-outline-color($white);
+}
